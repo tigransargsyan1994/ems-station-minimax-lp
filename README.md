@@ -12,6 +12,12 @@ Goal: **minimize the maximum (worst-case) travel time** while respecting:
 
 The model is formulated as a **mixed-integer linear program (MILP)** and solved using **PuLP**.
 
+## Notebooks
+This repository contains **two notebooks** with the same problem solved using **slightly different approaches**:
+
+- **Version 1** (`ems_station_minimax_teacher_version_1.ipynb`) — teacher-style formulation (reads inputs from `Data.xlsx`).
+- **Version 2** (`ems_station_minimax_version_2.ipynb`) — my formulation with clearer structure/markdown and loop-based variables/constraints.
+
 ## Model (short)
 Decision variables:
 - `y[i]` — build station in district `i` (binary)
