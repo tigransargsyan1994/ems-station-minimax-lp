@@ -15,8 +15,8 @@ The model is formulated as a **mixed-integer linear program (MILP)** and solved 
 ## Notebooks
 This repository contains **two notebooks** with the same problem solved using **slightly different approaches**:
 
-- **Version 1** (`ems_station_minimax_teacher_version_1.ipynb`) — teacher-style formulation (reads inputs from `Data.xlsx`).
-- **Version 2** (`ems_station_minimax_version_2.ipynb`) — my formulation with clearer structure/markdown and loop-based variables/constraints.
+- **Version 1** (`ems_station_minimax_teacher_version_1.ipynb`) — my formulation with clearer structure/markdown and loop-based variables/constraints.
+- **Version 2** (`ems_station_minimax_teacher_version_2.ipynb`) — teacher-style formulation (reads inputs from `Data.xlsx`).
 
 ## Model (short)
 Decision variables:
